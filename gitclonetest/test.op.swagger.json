@@ -1,0 +1,39 @@
+{
+    "method": "GET",
+    "resourceFormat": "https://contoso-my.SharePoint.com/_api/v1.0/me/files/{file-id}",
+    "requestUrl": "https://contoso-my.SharePoint.com/_api/v1.0/me/files/01J5374RQESF7QXYF4QFFZXHRRKYZZ2WSV",
+    "requestHeaders": {
+        "Accept": "application/json"
+    },
+    "parameterDetails": [
+        {
+            "name": "file-id",
+            "type": "string",
+            "description": "Id of the file.",
+            "defaultValue": "None"
+        }
+    ],
+    "statusCode": 200,
+    "responseBody": {
+
+	"@odata.context":"https://contoso-my.SharePoint.com/_api/v1.0/$metadata#SP.ApiData.Files/$entity",
+	"@odata.type":"#Microsoft.FileServices.File",
+	"@odata.id":"https://contoso-my.SharePoint.com/_api/v1.0/files/01J5374RQESF7QXYF4QFFZXHRRKYZZ2WSV",
+	"@odata.etag":"\"{0B7F9104-BCE0-4B81-9B9E-3156339D5A55},1\"",
+	"@odata.editLink":"files/01J5374RQESF7QXYF4QFFZXHRRKYZZ2WSV",
+	"createdBy":{"application":null,
+	"user":{"id":null,"displayName":"AzTest"}},
+	"eTag":"\"{0B7F9104-BCE0-4B81-9B9E-3156339D5A55},1\"",
+	"id":"01J5374RQESF7QXYF4QFFZXHRRKYZZ2WSV",
+	"lastModifiedBy":{"application":null,
+	"user":{"id":null,"displayName":"AzTest"}},
+	"name":"My Notes.docx","parentReference":{"driveId":"01OTIWNQQOTEPNCMVR3ZBZE7ZJTAODCBSU",
+	"id":"01J5374RT7GUQ3FOUVB5CJQYDUPOL2ZBFD","path":"Test 1"},
+	"size":15749,"dateTimeCreated":"2014-10-10T20:36:17Z",
+	"dateTimeLastModified":"2014-10-10T20:36:17Z",
+	"type":"File",
+	"webUrl":"https://contoso-my.SharePoint.com/personal/aztest_techedairlift05_ccsctp_net/Documents/Test%201/My%20Notes.docx",
+	"contentUrl":"https://contoso-my.SharePoint.com/personal/aztest_techedairlift05_ccsctp_net/_api/v1.0/files/01J5374RQESF7QXYF4QFFZXHRRKYZZ2WSV/content"
+
+    }
+}
